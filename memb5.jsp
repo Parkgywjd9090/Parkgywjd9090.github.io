@@ -13,7 +13,7 @@
  <% String [] uHobby = request.gerPArameterValues("hobby"); %>
  <h4>
  <%
- if(uHobby --null) {out.prinrln("입력내용없음");
+ if(uHobby==null) {out.prinrln("입력내용없음");
  } else{
    for(int i=0;i<uHobby.length;i++){
     out.println(uHobby[i]);
